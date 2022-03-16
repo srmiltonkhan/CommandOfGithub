@@ -1,0 +1,65 @@
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:srmiltonkhan/test.git
+error: remote origin already exists.
+
+git remote set-url origin https://github.com/srmiltonkhan/KYALSC_STORE_MANAGEMENT_SYSTEM.git
+
+git push -u origin main
+
+git origin -v
+
+git push -u origin main --force
+ 
+
+with branch name
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M branch_name
+git remote add origin git@github.com:srmiltonkhan/test.git
+git push -u origin branch_name
+
+
+
+Git management
+https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
+
+
+
+git switch --orphan ZIP
+git commit --allow-empty -m "ZIP"
+git push -u origin ZIP
+
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/srmiltonkhan/Version-of-KYAU-Website.git
+git branch -M main
+git push -u origin main
+
+
+***/*******************************
+git init
+git remote add origin git@github.com:srmiltonkhan/test.git
+
+after in visual code
+
+***********************
+git add .
+git commit -am "changes"
+git push origin master
+
+
+Clone
+******************
+
+git clone url
+npm install -g yarn
+
+yarn
+
+
